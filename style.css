@@ -11,10 +11,13 @@
     background: #0b0d15;
     color: #a2a5b3;
     align-content: center;
+    
   }
   h1{
     color: white;
+    margin: 20px;
   }
+  
   .card{
     margin: 0 auto;
     padding: 2em;
@@ -56,4 +59,13 @@
     to{
       --angle: 360deg;
     }
+  }
+  div .container{
+    display: flex;
+    padding: 10px;
+  }
+  div .item{
+padding: 10px;
+display: flex;
+    
   }
